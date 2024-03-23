@@ -123,7 +123,7 @@ export default function AboutPage() {
         
         <div className="flex flex-col justify-center items-center">
             <h1 data-aos="fade-in" data-aos-duration="1100" className="text-[#101820] text-[30px] my-3 font-extrabold">LOYALTY GOJEK PRODUK</h1>
-            <p data-aos="zoom-in" data-aos-duration="1500" className="text-[] text-[18px] mb-5">Make more transactions, get more rewards!</p>
+            <p data-aos="zoom-in" data-aos-duration="1500" className="text-[#101820] text-[18px] mb-5">Make more transactions, get more rewards!</p>
             <IButton data-aos="zoom-in" data-aos-duration="1500" desc="Join Us"/>
             <Image data-aos="zoom-in" data-aos-duration="1500" className="mx-8" src={animasigo} alt=""/>
         </div>
