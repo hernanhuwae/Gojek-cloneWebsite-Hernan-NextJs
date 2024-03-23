@@ -12,8 +12,8 @@ import { IButton } from "@/components/buttonshate";
 
 export default function AboutPage() {
   return (
-    <>
-      <div className="w-full min-w-[500px]">
+    <> 
+      <div className="w-full min-w-[500px] bg-[#101820]">
         <div className="flex fixed w-full justify-between items-center px-8 py-8 bg-[#101820] z-[10]">
           <ul className="flex items-center gap-2">
             <div className="w-[30px]">
@@ -51,9 +51,9 @@ export default function AboutPage() {
                 ></label>
                 <ul className="menu p-4 w-80 min-h-full text-center text-base-content bg-[#101820]">
                   {/* Sidebar content here */}
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/"}>Homepage</Link></li>
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/about"}>About</Link></li>
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/teams"}>Teams</Link></li>
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer text-white my-4"><Link href={"/"}>Homepage</Link></li>
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer text-white my-4"><Link href={"/about"}>About</Link></li>
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer text-white my-4"><Link href={"/teams"}>Teams</Link></li>
                   
                 </ul>
                 
@@ -86,7 +86,7 @@ export default function AboutPage() {
         </div>
         <div
           data-aos="zoom-in"  data-aos-duration="1700"
-          className="flex justify-center max-lg:flex-wrap gap-4 px-8 min-w-[500px] py-8 "
+          className="flex justify-center max-lg:flex-wrap gap-4 px-8 min-w-[500px] py-8 bg-[#101820]"
         >
           <CardProduct
             item1="GoRide"
@@ -122,8 +122,8 @@ export default function AboutPage() {
         </div>
         
         <div className="flex flex-col justify-center items-center">
-            <h1 data-aos="fade-in" data-aos-duration="1100" className="text-white text-[30px] my-3 font-extrabold">LOYALTY GOJEK PRODUK</h1>
-            <p data-aos="zoom-in" data-aos-duration="1500" className="text-white text-[18px] mb-5">Make more transactions, get more rewards!</p>
+            <h1 data-aos="fade-in" data-aos-duration="1100" className="text-[#101820] text-[30px] my-3 font-extrabold">LOYALTY GOJEK PRODUK</h1>
+            <p data-aos="zoom-in" data-aos-duration="1500" className="text-[] text-[18px] mb-5">Make more transactions, get more rewards!</p>
             <IButton data-aos="zoom-in" data-aos-duration="1500" desc="Join Us"/>
             <Image data-aos="zoom-in" data-aos-duration="1500" className="mx-8" src={animasigo} alt=""/>
         </div>

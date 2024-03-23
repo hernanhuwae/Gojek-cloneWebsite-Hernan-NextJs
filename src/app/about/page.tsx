@@ -49,9 +49,9 @@ export default function AboutPage() {
                 ></label>
                 <ul className="menu p-4 w-80 min-h-full text-center text-base-content bg-[#101820]">
                   {/* Sidebar content here */}
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/"}>Homepage</Link></li>
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/product"}>Product</Link></li>
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/teams"}>Teams</Link></li>
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer text-white my-4"><Link href={"/"}>Homepage</Link></li>
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer text-white my-4"><Link href={"/product"}>Product</Link></li>
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer text-white my-4"><Link href={"/teams"}>Teams</Link></li>
                   
                 </ul>
                 

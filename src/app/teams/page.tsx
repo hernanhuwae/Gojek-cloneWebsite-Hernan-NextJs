@@ -53,13 +53,13 @@ export default async function Teams() {
                 ></label>
                 <ul className="menu p-4 w-80 min-h-full text-center text-base-content bg-[#101820]">
                   {/* Sidebar content here */}
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4">
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4 text-white">
                     <Link href={"/about"}>ABOUT</Link>
                   </li>
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4">
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4 text-white">
                     <Link href={"/product"}>PRODUCT</Link>
                   </li>
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4">
+                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4 text-white">
                     <Link href={"/teams"}>TEAMS</Link>
                   </li>
                 </ul>
@@ -68,7 +68,7 @@ export default async function Teams() {
           </div>
 
           <ul className="max-sm:hidden flex gap-1 text-white text-[1rem] font-semibold ">
-            <li className="hover:rounded-full hover:bg-[#3c5269] p-4 cursor-pointer">
+            <li className="hover:rounded-full hover:bg-[#3c5269] p-4 cursor-pointer ">
               <Link href={"/"}>Homepage</Link>
             </li>
             <li className="hover:rounded-full hover:bg-[#3c5269] p-4 cursor-pointer">

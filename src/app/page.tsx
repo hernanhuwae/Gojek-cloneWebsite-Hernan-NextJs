@@ -62,13 +62,13 @@ export default function Home() {
                 ></label>
                 <ul className="menu p-4 w-80 min-h-full text-center text-base-content bg-[#101820]">
                   {/* Sidebar content here */}
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4">
+                  <li className="text-[1.3rem] font-semibold text-white hover:underline cursor-pointer my-4">
                     <Link href={"/about"}>ABOUT</Link>
                   </li>
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4">
+                  <li className="text-[1.3rem] text-white font-semibold hover:underline cursor-pointer my-4">
                     <Link href={"/product"}>PRODUCT</Link>
                   </li>
-                  <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4">
+                  <li className="text-[1.3rem] text-white font-semibold hover:underline cursor-pointer my-4">
                     <Link href={"/teams"}>TEAMS</Link>
                   </li>
                 </ul>
