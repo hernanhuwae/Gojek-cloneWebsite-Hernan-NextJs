@@ -1,0 +1,37 @@
+<div className="sm:hidden bg-[#101820]">
+  <div className="drawer drawer-end">
+    <input
+      id="my-drawer-4"
+      type="checkbox"
+      className="drawer-toggle"
+    />
+    <div className="drawer-content">
+      {/* Page content here */}
+      <label
+        htmlFor="my-drawer-4"
+        className="bg-[#101820] border-2 border-[#101820] drawer-button btn btn-primary"
+      >
+        <ul className="">
+          <li className="bg-white w-8 h-1 mb-1"></li>
+          <li className="bg-white w-8 h-1 mb-1"></li>
+          <li className="bg-white w-8 h-1 mb-1"></li>
+        </ul>
+      </label>
+    </div>
+    <div className="drawer-side ">
+      <label
+        htmlFor="my-drawer-4"
+        aria-label="close sidebar"
+        className="drawer-overlay"
+      ></label>
+      <ul className="menu p-4 w-80 min-h-full text-center text-base-content bg-[#101820]">
+        {/* Sidebar content here */}
+        <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/about"}>ABOUT</Link></li>
+        <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/product"}>PRODUCT</Link></li>
+        <li className="text-[1.3rem] font-semibold hover:underline cursor-pointer my-4"><Link href={"/teams"}>TEAMS</Link></li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</div>
