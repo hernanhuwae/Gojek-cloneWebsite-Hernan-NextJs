@@ -22,7 +22,7 @@ export const CardProduct4: React.FC<ICardProduct> = ({
   return (
     <>
       {/* PRODUK 1 */}
-      <div className="flex flex-col bg-[#93328e] justify-between rounded-[15%] min-w-[200px] min-h-[50px] w-[25%]">
+      <div data-aos="zoom-in"  data-aos-duration="1200" className="flex flex-col bg-[#93328e] justify-between rounded-[15%] min-w-[200px] min-h-[50px] w-[25%]">
         <div className="rounded-xl py-4">
           <div className="flex items-center px-12 pb-5 justify-center">
             <Image src={icon} width={50} height={50} alt=""></Image>
