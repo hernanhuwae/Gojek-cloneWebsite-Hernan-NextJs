@@ -121,7 +121,7 @@ export default function AboutPage() {
           </div>
 
           {/* Section 4: Konten history*/}
-          <div className="flex h-auto bg-[#011f4b] items-center gap-4 max-md:flex-col">
+          <div className="flex h-auto bg-[#011f4b] items-center gap-4 max-lg:flex-col">
             <Image
               data-aos="zoom-in"
               data-aos-duration="1500"
@@ -145,6 +145,19 @@ export default function AboutPage() {
                 ke tempat kerjanya untuk menembus kemacetan di Jakarta.[8] Saat
                 itu, Nadiem masih bekerja sebagai Co-Founder dan Managing
                 Director Zalora Indonesia dan Chief Innovation Officer Kartuku.
+                Gojek pertama kali mendapatkan kucuran dana dari NSI Ventures
+                pada Juni 2015 dengan besaran dana yang tidak
+                dipublikasikan.[12] Pada Oktober 2015, Gojek kembali mendapatkan
+                kucuran dana.[12] Kali ini dari Sequoia Capital dan DST Global
+                yang juga tidak disebutkan jumlahnya. Pada Agustus 2016, Gojek
+                secara resmi mengumumkan pendanaan senilai US$550 juta atau
+                sekitar Rp7,2 triliun dari KKR, Warburg Pincus, Farallon
+                Capital, dan Capital Group Private Markets dan investor-investor
+                sebelumnya.[13][14] Dengan adanya pendanaan tersebut, Gojek
+                resmi berstatus sebagai unicorn pertama di Indonesia, yaitu
+                startup dengan valuasi lebih dari US$1 miliar. Pada saat itu,
+                valuasi Gojek telah mencapai US$1,3 miliar (sekitar Rp17
+                triliun).[15]
               </p>
             </div>
           </div>
@@ -169,7 +182,7 @@ export default function AboutPage() {
                 >
                   <li>
                     <hr />
-                    <div className="timeline-middle">
+                    <div className="timeline-middle bg-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -207,7 +220,7 @@ export default function AboutPage() {
                   </li>
                   <li>
                     <hr />
-                    <div className="timeline-middle">
+                    <div className="timeline-middle bg-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -225,18 +238,22 @@ export default function AboutPage() {
                       <time className="font-mono italic text-white">
                         CHIEF PRODUCT GOJEK
                       </time>
-                      <div className="text-lg font-black text-green-500">Song joong ki</div>
-                      <p className="text-white">Song Joong-ki adalah seorang aktor, model, dan pembawa
-                      acara dari Korea Selatan. Dia mulai terkenal saat
-                      membintangi drama bersejarah Sungkyunkwan Scandal dan
-                      acara varietas Running Man sebagai salah satu anggota
-                      pemain awal ketika dimulai pada tahun 2010.</p>
+                      <div className="text-lg font-black text-green-500">
+                        Song joong ki
+                      </div>
+                      <p className="text-white">
+                        Song Joong-ki adalah seorang aktor, model, dan pembawa
+                        acara dari Korea Selatan. Dia mulai terkenal saat
+                        membintangi drama bersejarah Sungkyunkwan Scandal dan
+                        acara varietas Running Man sebagai salah satu anggota
+                        pemain awal ketika dimulai pada tahun 2010.
+                      </p>
                     </div>
                     <hr />
                   </li>
                   <li>
                     <hr />
-                    <div className="timeline-middle">
+                    <div className="timeline-middle bg-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -251,12 +268,18 @@ export default function AboutPage() {
                       </svg>
                     </div>
                     <div className="timeline-end mb-10">
-                      <time className="font-mono italic text-white">CHIEF TECH GOJEK</time>
-                      <div className="text-lg font-black text-green-500">Kim So Hyun</div>
-                      <p className="text-white">Kim So-hyun adalah aktris, pembawa acara, dan model asal
-                      Korea Selatan. Ia memulai kariernya sebagai aktris cilik
-                      ketika berusia tujuh tahun, dan mulai memperoleh
-                      kepopuleran pada tahun 2012</p>
+                      <time className="font-mono italic text-white">
+                        CHIEF TECH GOJEK
+                      </time>
+                      <div className="text-lg font-black text-green-500">
+                        Kim So Hyun
+                      </div>
+                      <p className="text-white">
+                        Kim So-hyun adalah aktris, pembawa acara, dan model asal
+                        Korea Selatan. Ia memulai kariernya sebagai aktris cilik
+                        ketika berusia tujuh tahun, dan mulai memperoleh
+                        kepopuleran pada tahun 2012
+                      </p>
                     </div>
                     <hr />
                   </li>

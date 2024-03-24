@@ -152,11 +152,10 @@ export default function Home() {
                     className="rounded-box"
                   />
                   <h1 className="  text-white font-semibold text-wrap text-[15px] group-hover:text-white">
-                    Mendukung kesejahteraan mitra pengemudi dan <br/> pedagang dengan kesempatan ekonomi yang adil.
+                    Mendukung kesejahteraan mitra pengemudi dan <br /> pedagang
+                    dengan kesempatan ekonomi yang adil.
                   </h1>
-                  <p className=" text-white font-semibold text-[15px] text-wrap text-center">
-                    
-                  </p>
+                  <p className=" text-white font-semibold text-[15px] text-wrap text-center"></p>
                 </div>
               </div>
               <div className="carousel-item">
@@ -171,9 +170,7 @@ export default function Home() {
                     Memberikan solusi transportasi yang aman, <br /> nyaman, dan
                     terjangkau bagi semua
                   </h1>
-                  <p className=" text-white font-semibold text-[15px] text-wrap text-center">
-                    
-                  </p>
+                  <p className=" text-white font-semibold text-[15px] text-wrap text-center"></p>
                 </div>
               </div>
               <div className="carousel-item">
@@ -185,11 +182,10 @@ export default function Home() {
                     className="rounded-box"
                   />
                   <h1 className="  text-white font-semibold text-wrap text-[15px] group-hover:text-white">
-                    Memperluas akses terhadap layanan keuangan <br/> digital untuk mendorong inklusi finansial
+                    Memperluas akses terhadap layanan keuangan <br /> digital
+                    untuk mendorong inklusi finansial
                   </h1>
-                  <p className=" text-white font-semibold text-[15px] text-wrap text-center">
-                   
-                  </p>
+                  <p className=" text-white font-semibold text-[15px] text-wrap text-center"></p>
                 </div>
               </div>
               <div className="carousel-item">
@@ -335,7 +331,7 @@ export default function Home() {
         </div>
 
         {/* Section 4: Konten middle  */}
-        <div className="h-screen bg-[#00b4d8] pt-8 z-[5]">
+        <div className="bg-[#00b4d8] pt-8 mb-32">
           <div className="flex flex-col items-center">
             <h1
               data-aos="zoom-in"
@@ -344,8 +340,7 @@ export default function Home() {
             >
               INDONESIA
             </h1>
-            <div className="flex flex-col items-center h-[25px] mx-16">
-              <p
+            <p
                 data-aos="fade-right"
                 data-aos-duration="2000"
                 className="text-black text-[28px] max-sm:text-[18px] text-center text-wrap px-8 pt-5 mb-5 font-serif"
@@ -356,7 +351,6 @@ export default function Home() {
               </p>
               <IButton desc="Newsroom" />
               <Image className="pt-8" width={300} src={mapindo} alt=""></Image>
-            </div>
           </div>
         </div>
 
@@ -457,9 +451,11 @@ export default function Home() {
               </h1>
             </div>
           </div>
+
+          
         </div>
 
-        <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded z-[5]">
+        <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
           <nav className="grid grid-flow-col gap-4">
             <a className="link link-hover">About us</a>
             <a className="link link-hover">Contact</a>
